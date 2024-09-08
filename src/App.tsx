@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <h1 className="font-bold text-center text-white my-16 text-4xl">
-        Input files Drag/Drop
+        Input de arquivos Arrasta e Solta
       </h1>
       <form onSubmit={onSubmit} className="w-full h-72 flex justify-center items-center">
         <FileInput />
